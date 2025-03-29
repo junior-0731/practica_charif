@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 body{
     background-color: #1b9e2286;
     display: grid;
@@ -6,10 +11,82 @@ body{
 }
 
 header{
-    background-color: #e8eeee;
-    display: grid;
-    min-height: 33dvh;
-    grid-template-rows:auto 1fr auto
+    background-color: #fa5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50vh;
+    min-height: 13vh;
+    background: linear-gradient(#333,#48e);
+    
+}
+.contenedor_img h2{
+    color: #ffa;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: absolute;
+    margin-left: 80vh;
+
+
+}
+.menu_navegacion{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+.opciones_menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3vh;
+}
+.opciones_menu li{
+    font-size: 20px;
+    padding: 1vh;
+    transition: .3s ease-in-out;
+}
+.opciones_menu li:hover{
+    background-color: #0b0072;
+    border-radius: 8px;
+    color: white;
+}
+.opciones_menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.botones_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+}
+.botones_menu button{
+    padding: .7vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.boton_login{
+    background-color: #48e;
+    
+}
+.boton_register{
+    background-color: #20254b;
+
+}
+/* contenedor imagen */
+.contenedor_img{
+    margin-right: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vh;
+
 }
 h2 {color: #0b0072;
     text-align: center; 
@@ -22,7 +99,7 @@ h2 titulo {
 }
 
 
-footer {background-color: #002fff;
+footer {background-color: #20254b;
     display: grid;
     min-height: 20dvh;
     grid-template-rows: auto 1fr auto;}
