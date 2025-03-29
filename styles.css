@@ -1,6 +1,38 @@
 body{
-    background-color: #48e;
+    background-color: #1b9e2286;
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
 }
+
+header{
+    background-color: #e8eeee;
+    display: grid;
+    min-height: 33dvh;
+    grid-template-rows:auto 1fr auto
+}
+h2 {color: #0b0072;
+    text-align: center; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);}
+
+h2 titulo {
+    color: #0b0072;
+    text-align: center; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+
+footer {background-color: #002fff;
+    display: grid;
+    min-height: 20dvh;
+    grid-template-rows: auto 1fr auto;}
+    h1 {
+        color: #1938c0; 
+        font-size: 32px; 
+        font-family: Arial, sans-serif; 
+        font-weight: bold; 
+        text-align: center; 
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5); 
+      }
+
+      
